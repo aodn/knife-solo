@@ -14,6 +14,7 @@ ssl_verify_mode           <%= ssl_verify_mode.inspect %>
 solo_legacy_mode          <%= solo_legacy_mode.inspect %>
 log_level                 <%= log_level.inspect %>
 enable_reporting          <%= enable_reporting.inspect %>
+file_cache_path           '/var/chef/cache'
 
 cookbook_path []
 <% cookbook_paths.each_with_index do |path, i| -%>
